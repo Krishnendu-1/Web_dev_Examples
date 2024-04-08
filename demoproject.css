@@ -1,0 +1,40 @@
+button{
+  text-align: center;
+  /* margin-left: 1%; */
+  background-color: antiquewhite;
+  margin-right: 29%;
+}
+img{
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+}
+span{
+  background-color: rgb(0 0 0 / 19%);
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
+  border-color: antiquewhite;
+  border-width: 1%;
+}
+.d{
+  background-color: rgb(0 0 0 / 7%);
+  height:60px
+  /* margin-left: 43%; */
+  /* width: 119px; */
+  /* padding-right: 44%; */
+  /* font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+}
+input{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-left: 30%;
+}
+a{
+  margin-left: 12px;
+
+}

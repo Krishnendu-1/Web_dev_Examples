@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+div{
+    /* transition: all 2s linear 1s; */
+    /* position: absolute;
+    left: 30%;
+    top:30%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* transition: all 3s steps(5) 2s; */
+/* } */
+
+/* img{
+    height: 200px;
+    width: auto;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+div i{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    left:-15%;
+    opacity: 0.6;
+
+
+} */
+

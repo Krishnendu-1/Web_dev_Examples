@@ -1,0 +1,115 @@
+.box2
+{
+    border-width: thick;
+    color: rgb(90, 130, 9);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    border-style: solid;
+    border-color: black;
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+h3{
+    
+    border-width: 12px;
+    border-style: solid;
+    height: 27px;
+    color: #c5e708f2;
+    padding: 131px 144px;/*syntax after padding is followed by y(top/bottom) and x(left/right) */
+   
+    border-color: green;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-image: url(https://th.bing.com/th/id/OIP.b0lpq1RPYnzbJXMEKTquTwHaFG?pid=ImgDet&rs=1);
+    /* padding-left: 142px; */
+    margin: 16px -69px 37px 117px;/*top right bottom left*/
+    width: 178px;/*width of the background image and the writing
+    font-size: 46px;
+    image-rendering: optimizequality;
+    /* padding-left: 146px; */
+    /* image-orientation: inherit; */
+    font-size: 63px;
+    
+    /* background-image: url('https://th.bing.com/th/id/OIP.b0lpq1RPYnzbJXMEKTquTwHaFG?pid=ImgDet&rs=1'); */
+}
+.box{
+    color: yellowgreen;
+    box-sizing: border-box;
+    font-size: 45px;
+    color: blueviolet;
+    border-style: ridge;
+    border-color: red;
+    border-radius: 13px;
+    padding: -50px 30px;
+    margin: -40px -129px 58px 144px;
+    /* height: 10px; */
+    border-width: 6px;
+    display: inline;
+    cursor: pointer;
+
+}
+span:hover{/*HOVER IS A PSEUDOSELECTOR*/
+    color: red;
+
+}
+body{
+    /* background-repeat: no-repeat; */
+    text-transform: capitalize;
+    text-align:center;/*alignment of texts*/
+
+   background-size: cover;
+   background-repeat: no-repeat;
+   background: linear-gradient(to top left, rgb(135, 241, 135),rgb(192, 136, 245,0.8));/*combition of colours, or we can use "146deg" in the place of "to left"*/
+background-color: rgb(144, 241, 144,0.4);/*the last 0.4 is for transparency---> 0 is lowest and 1 is highest*/
+
+/* background-image: url('https://th.bing.com/th/id/OIP.b0lpq1RPYnzbJXMEKTquTwHaFG?pid=ImgDet&rs=1'); */
+}
+.hello{
+    width: 100px;
+    margin: 732px 192px 194px 1253px;
+    border: 10px red solid;
+    padding: 100px;
+    font-size:50px;
+  
+  
+    
+    background: radial-gradient(circle,rgb(236, 141, 141),rgb(114, 13, 209));/*second type of gradient*/  
+
+}
+ /*a{
+    text-decoration-line: none;removes the by default underline from the links added
+    text-transform: uppercase;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+float: left;
+ 
+}*/
+.div{
+    justify-content: center;
+    display: flex;
+     flex-direction:row;
+    margin: 100px 10px 150px 10px;
+     /* flex-wrap: wrap; */
+height: 50px;
+    background-color: green;
+    /* align-items: flex-start; */
+    
+}
+
+.div-item{
+    border: 2px black solid;
+    text-align: center;
+    margin: 5px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 50px;
+   
+  
+}
+
+a:visited {color: green;}
+a:focus { color: red; }

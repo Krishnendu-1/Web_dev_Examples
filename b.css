@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+#main{
+     background-color: antiquewhite;
+     height: 50vh;
+     width: 10vw;
+
+}
+#inner{
+    background-color: aqua;
+    height: 50vh;
+    width: 9vw;
+    transform: scale(1,1);
+
+}
+
+span{
+    cursor: pointer;
+    
+
+}
+
+#outer{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top:20%;
+    left:45%;
+}
+
+.change{
+    
+    background-color: green;
+    
+
+}
